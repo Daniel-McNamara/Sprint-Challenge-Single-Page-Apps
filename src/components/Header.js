@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="ui centered">
       <h1 className="ui center">Rick &amp; Morty Fan Page</h1>
-      <StyledLink to="/">Home</StyledLink>
+      <StyledLink to="/">Home</StyledLink> 
       <StyledLink to="/characters">Characters</StyledLink>
       {/* <Link to="/locations">Locations</Link> */}
     </header>
