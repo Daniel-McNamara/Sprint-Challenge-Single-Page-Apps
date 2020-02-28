@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export default function EpisodeCard(props) {
-  console.log(props)
+  //console.log(props)
   const Card = styled.div`
     text-align: center;
     width: 30%;

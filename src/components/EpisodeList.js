@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+/*import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import EpisodeCard from "./EpisodeCard";
 
@@ -27,4 +27,4 @@ export default function EpisodeList() {
             </div>
         </section>
     )
-}
+}*/
