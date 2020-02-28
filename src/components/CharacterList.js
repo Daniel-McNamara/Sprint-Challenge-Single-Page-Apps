@@ -20,7 +20,7 @@ export default function CharacterList() {
       setCharacters(characterList);
     })
     .catch(err => {
-      console.log("The data was not returned", err);
+     // console.log("The data was not returned", err);
     })
   }, []);
 

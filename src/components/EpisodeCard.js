@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function LocationCard(props) {
+export default function EpisodeCard(props) {
   console.log(props)
   const Card = styled.div`
     text-align: center;
@@ -14,9 +14,9 @@ export default function LocationCard(props) {
 
   return (
     <Card>
-      <h2>{props.location.name}</h2>
-      <h3>Type: {props.location.type}</h3>
-      <h3>Dimension: {props.location.dimension}</h3>      
+        <h2>{props.episode.name}</h2>
+        <h3>Air Date: {props.episode.air_date}</h3>
+        <h3>Episode: {props.episode.episode}</h3>
     </Card>
   );
 }

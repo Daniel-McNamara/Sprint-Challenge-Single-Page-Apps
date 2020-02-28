@@ -10,13 +10,19 @@ export default function Header() {
       color: #a9d3e9;
     }
   `;
-
+  const Nav = styled.nav`
+  display: flex;
+  justify-content: space-around;
+`
   return (
     <header className="ui centered">
       <h1 className="ui center">Rick &amp; Morty Fan Page</h1>
-      <StyledLink to="/">Home</StyledLink> 
-      <StyledLink to="/characters">Characters</StyledLink>
-      {/* <Link to="/locations">Locations</Link> */}
+      <Nav>
+        <StyledLink to="/">Home</StyledLink>
+        <StyledLink to="/characters">Characters</StyledLink>
+        <StyledLink to="/locations">Locations</StyledLink>
+        <StyledLink to="/episodes">Episodes</StyledLink>
+      </Nav>
     </header>
   );
 }
